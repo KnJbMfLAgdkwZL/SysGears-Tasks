@@ -11,8 +11,8 @@ class Converter {
     Convert(from, to, val) {
         let result = null
         try {
-            result = val * this.rules[from] / this.rules[to]
-            result = Math.round(result * 100) / 100
+            result = parseFloat(val) * parseFloat(this.rules[from]) / parseFloat(this.rules[to])
+            result = Math.round(result * 100.0) / 100.0
         } catch (e) {
             console.log(e)
         }
