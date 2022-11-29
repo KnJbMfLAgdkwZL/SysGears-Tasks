@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "user": "qwe@mail.com",
+      "rating": 20,
+      "disabled": false
+    },
+    {
+      "user": "asd@mail.com",
+      "rating": 14,
+      "disabled": true
+    },
+    {
+      "user": "zxc@mail.com",
+      "rating": 25,
+      "disabled": true
+    },
+    {
+      "user": "wer@mail.com",
+      "rating": 25,
+      "disabled": true
+    },
+    {
+      "user": "sdf@mail.com",
+      "rating": 25,
+      "disabled": true
+    }
+  ],
+  "condition": {
+    "include": [
+      {
+        "disabled": true
+      },
+      {
+        "rating": 25
+      }
+    ],
+    "exclude": [
+      {
+        "user": "zxc@mail.com"
+      }
+    ],
+    "sort_by": [
+      "user"
+    ]
+  }
+}

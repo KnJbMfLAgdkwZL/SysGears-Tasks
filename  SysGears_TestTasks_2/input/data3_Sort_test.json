@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "name": "QQQ",
+      "surname": "123",
+      "Age": 25
+    },
+    {
+      "name": "AAA",
+      "surname": "BBB",
+      "Age": 35
+    },
+    {
+      "name": "EEE",
+      "surname": "087",
+      "Age": 22
+    },
+    {
+      "name": "AAA",
+      "surname": "BBA",
+      "Age": 45
+    },
+    {
+      "name": "TTT",
+      "surname": "34676",
+      "Age": 25
+    },
+    {
+      "name": "AAA",
+      "surname": "BBD",
+      "Age": 31
+    }
+  ],
+  "condition": {
+    "sort_by": [
+      "name",
+      "surname",
+      "Age"
+    ]
+  }
+}

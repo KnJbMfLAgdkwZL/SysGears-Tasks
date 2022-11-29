@@ -1,0 +1,14 @@
+{
+  "result": [
+    {
+      "user": "sdf@mail.com",
+      "rating": 25,
+      "disabled": true
+    },
+    {
+      "user": "wer@mail.com",
+      "rating": 25,
+      "disabled": true
+    }
+  ]
+}

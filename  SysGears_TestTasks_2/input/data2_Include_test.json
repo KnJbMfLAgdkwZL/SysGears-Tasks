@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "name": "John",
+      "email": "S_John11@mail.com"
+    },
+    {
+      "name": "John",
+      "email": "A_John22@mail.com"
+    },
+    {
+      "name": "Johny",
+      "email": "Johny@mail.com"
+    },
+    {
+      "name": "Jonson",
+      "email": "Jonson@mail.com"
+    },
+    {
+      "name": "Jimy",
+      "email": "Jimy@mail.com"
+    }
+  ],
+  "condition": {
+    "include": [
+      {
+        "name": "John"
+      }
+    ],
+    "sort_by": [
+      "email"
+    ]
+  }
+}
